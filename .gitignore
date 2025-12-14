@@ -1,0 +1,45 @@
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Model weights & outputs (don't commit large files)
+*.ckpt
+*.safetensors
+*.bin
+outputs/
+generated_images/
+
+# Environment variables
+.env
+.env.local
+
+# Temporary files
+*.log
+*.tmp
